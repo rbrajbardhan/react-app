@@ -11,6 +11,11 @@ function App() {
     alignItem:"center",
   }
   const outerbox={
+    backgroundColor:"lightblue", // camal case
+    height:screen,
+    width:"100%",
+    display:"flex",
+    justifyContent:"center",
     alignItem:"center",
   }
 
