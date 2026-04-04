@@ -1,12 +1,12 @@
-import Card from './card';
+import Card from "./Card";
+
 function App() {
   return (
     <div>
-      <p>hello!!</p>
-      <p>From raj</p>
-      <Card />
+      <p>heloo!!</p>
+      <text>From Avir</text>
+      <Card></Card>
     </div>
-
   );
 }
 

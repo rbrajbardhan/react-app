@@ -1,38 +1,33 @@
-import Card from './Card';
-import './App.css';
+import Card from "./Card";
+
 function App() {
-
-  const innerbox={
-    backgroundColor:"lightgreen", // camal case
-    height:screen,
-    width:"100%",
-    display:"flex",
-    justifyContent:"center",
-    alignItem:"center",
-  }
   const outerbox={
-    backgroundColor:"lightblue", // camal case
+    backgroundColor:"blue",// camal case
     height:screen,
     width:"100%",
-    display:"flex",
-    justifyContent:"center",
-    alignItem:"center",
+    display:flex,
+    justifyContent:center,
+    alignItem:center
   }
-
   return (
     <>
-    <div style={outerbox}>
-    <h1>SparkonFeet</h1>
-    <div style={innerbox}>
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    </div>
-    </div>
+    <div style={outerbox} >
+
+   
+      <h1>SparkonFeet</h1>
+      <div style={innerBox}>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
